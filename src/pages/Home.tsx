@@ -20,7 +20,7 @@ const HomePage = () => {
     firstname: "Patryk",
     nationality: "Poland",
     birthdate: "2009-05-26", // YYYY-MM-DD
-    description: "Certified React Developer and Discord Server Moderator",
+    description: "Upcoming web developer and content creator.",
     buttons: {
       Paypal: {
         Icon: "bx bxl-paypal",
