@@ -1,10 +1,13 @@
 import { useEffect } from "react";
+import { useParams } from "react-router-dom";
+
 /* Components */
 import Profile_User from "../components/Profile_User";
 import Profile_Socials from "../components/Profile_Socials";
 import Profile_Buttons from "../components/Profile_Buttons";
 import Copyrights from "../components/Copyrights";
 import Controls from "../components/Controls";
+import RedirectFromParam from "../components/Redirect";
 
 /* Utilities */
 import setTitle from "../utilities/setTitle";
@@ -71,12 +74,23 @@ const HomePage = () => {
     },
   };
 
+  // Change title of page
+
   useEffect(() => {
     setTitle("Home");
   });
 
+  const { link } = useParams();
+
   return (
     <>
+      {link && (
+        <RedirectFromParam
+          link={link}
+          links={ProfileData.links}
+          buttons={ProfileData.buttons}
+        />
+      )}
       <Controls />
 
       <div className="Profile_Page">
