@@ -81,7 +81,8 @@ body {
 /* Copyrights */
 
 .Copyrights {
-  position: absolute;
+  z-index: 2;
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
