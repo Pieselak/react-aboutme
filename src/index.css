@@ -546,5 +546,6 @@ a:hover {
 
   .Profile_Page .Profile_User .Profile_Name .Profile_Info p {
     justify-content: center;
+    gap: 0.25rem;
   }
 }
