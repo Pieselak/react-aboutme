@@ -157,6 +157,7 @@ a:hover {
 }
 
 .NotFound_Page .NotFound_Text h1 {
+  z-index: 1;
   margin: 0;
   font-size: 2rem;
   font-weight: 600;
@@ -166,6 +167,7 @@ a:hover {
 }
 
 .NotFound_Page .NotFound_Text p {
+  z-index: 1;
   margin: 0;
   font-size: 1rem;
   font-weight: 400;
@@ -185,13 +187,14 @@ a:hover {
 }
 
 .NotFound_Page .NotFound_Bottom span {
+  z-index: 1;
   font-size: 0.8rem;
   font-weight: 400;
   color: var(--color-text2);
   transition: 0.25s;
 }
 
-.NotFound_Page .NotFound_Image {
+.NotFound_Page img {
   z-index: 0;
   position: absolute;
   bottom: -2rem;
@@ -206,6 +209,7 @@ a:hover {
 }
 
 .NotFound_Page .NotFound_Bottom .NotFound_Return {
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;

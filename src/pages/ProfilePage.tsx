@@ -16,7 +16,7 @@ import calculateAge from "../utilities/calculateAge";
 /* Assets */
 import avatar from "../assets/avatar.png";
 
-const HomePage = () => {
+const ProfilePage = () => {
   const ProfileData = {
     avatar: avatar,
     username: "Pieselak",
@@ -69,7 +69,7 @@ const HomePage = () => {
       },
       Twitch: {
         Icon: "bx bxl-twitch", // BoxIcons class name
-        Link: "https://twitch.tv/pieselak",
+        Link: "https://twitch.tv/mrpieselak",
       },
     },
   };
@@ -117,4 +117,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default ProfilePage;
