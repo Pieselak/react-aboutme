@@ -501,16 +501,16 @@ a:hover {
     padding: 1rem;
   }
 
-  .Profile_Page .Profile_User img {
+  .Profile_User img {
     width: 6rem;
     height: 6rem;
   }
 
-  .Profile_Page .Profile_User .Profile_Name h1 {
+  .Profile_User .Profile_Name h1 {
     font-size: 1.25rem;
   }
 
-  .Profile_Page .Profile_User .Profile_Name p {
+  .Profile_User .Profile_Name p {
     font-size: 0.8rem;
   }
 
@@ -539,12 +539,12 @@ a:hover {
 }
 
 @media screen and (max-width: 360px) {
-  .Profile_Page .Profile_User {
+  .Profile_User {
     flex-direction: column;
     gap: 1rem;
   }
 
-  .Profile_Page .Profile_User .Profile_Name .Profile_Info p {
+  .Profile_User .Profile_Name .Profile_Info p {
     justify-content: center;
     gap: 0.25rem;
   }
