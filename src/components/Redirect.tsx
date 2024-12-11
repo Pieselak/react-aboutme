@@ -33,7 +33,7 @@ const RedirectFromParam = ({ link, links, buttons }: Props) => {
     if (Redirects[link.toLowerCase()]) {
       window.location.href = Redirects[link.toLowerCase()];
     } else {
-      window.location.href = "/404";
+      window.location.href = "/#/404";
     }
   }
 
