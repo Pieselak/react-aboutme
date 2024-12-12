@@ -64,6 +64,7 @@ body {
   font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
 
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -247,6 +248,7 @@ a:hover {
     padding: 1rem;
     gap: 2rem;
     min-width: 20rem;
+    width: auto;
   }
 
   .NotFound_Page .NotFound_Image {
@@ -273,9 +275,11 @@ a:hover {
 
 @media screen and (max-width: 360px) {
   .NotFound_Page {
+    box-sizing: border-box;
     padding: 1rem;
     min-height: 40vh;
-    min-width: 80%;
+    width: auto;
+    min-width: auto;
     background: url("./assets/notfound.gif") no-repeat center bottom;
     background-size: cover;
   }
