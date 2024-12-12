@@ -2,7 +2,7 @@ const Copyrights = () => {
   return (
     <div className="Copyrights">
       <p>
-        Built by <a href="/">Pieselak</a>
+        Built by <a href="github.com/pieselak">Pieselak</a>
       </p>
       <p>
         With <a href="https://react.dev">React.js</a> and{" "}
